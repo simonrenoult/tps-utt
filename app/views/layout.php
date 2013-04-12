@@ -3,6 +3,10 @@
   <head>
     <title>Simon RENOULT - TPs LO07</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Simon RENOULT" />
+    <meta name="description" content="TPs LO07 de Simon Renoult" />
+    <meta name="keywords" content="lo07 tps simon renout" />
+    
     <link rel="icon" type="image/png" href="public/img/favicon.png" />
     <link href="public/css/main.css" type="text/css" rel="stylesheet" media="screen" />
     <link href="public/css/base.css"  type="text/css" rel="stylesheet" media="screen" />
@@ -32,6 +36,7 @@
           <li><a href="index.php?tp=3">TP03</a></li>
           <li><a href="index.php?tp=4">TP04</a></li>
           <li><a href="index.php?tp=5">TP05</a></li>
+          <li><a href="index.php?tp=6">TP06</a></li>
           <li><a href="index.php?projet=true">Projet</a></li>
         </ul>
       </nav>

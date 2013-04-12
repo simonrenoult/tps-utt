@@ -15,18 +15,12 @@
   </fieldset>  
 </form>
 
-<div>
-  <?php
-    function exist ( $param ) {
-      return isset ( $param ) && ! empty ( $param );
-    }
-  ?>
-  
-  Nom : <?php echo exist ( $_GET['nom'] ) ? $_GET['nom'] : "Inconnu" ?> <br />
-  Pr&eacute;nom : <?php echo exist ( $_GET['prenom'] ) ? $_GET['prenom'] : "Inconnu" ?> <br />
-  Email : <?php echo exist ( $_GET['email'] ) ? $_GET['email'] : "Inconnu" ?> <br />
-  Login : <?php echo exist ( $_GET['login'] ) ? $_GET['login'] : "Inconnu" ?> <br />
-  Mot de passe : <?php echo exist ( $_GET['mdp'] ) ? $_GET['mdp'] : "Inconnu" ?>
+<div>  
+  Nom : <?php echo isset ( $_GET['nom'] ) ? $_GET['nom'] : "Inconnu" ?> <br />
+  Pr&eacute;nom : <?php isset ( $_GET['prenom'] ) ? $_GET['prenom'] : "Inconnu" ?> <br />
+  Email : <?php echo isset ( $_GET['email'] ) ? $_GET['email'] : "Inconnu" ?> <br />
+  Login : <?php echo isset ( $_GET['login'] ) ? $_GET['login'] : "Inconnu" ?> <br />
+  Mot de passe : <?php isset ( $_GET['mdp'] ) ? $_GET['mdp'] : "Inconnu" ?>
 </div>
 
 <div>
